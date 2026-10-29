@@ -9,16 +9,15 @@
   <title>한 줌 암기 · 한식 실기 양념장</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=3">
-  <script defer src="./data.js?v=3"></script>
-  <script defer src="./app.js?v=3"></script>
+  <link rel="stylesheet" href="./styles.css?v=4">
+  <script defer src="./data.js?v=4"></script>
+  <script defer src="./app.js?v=4"></script>
 </head>
 <body>
   <div class="shell">
-    <header class="topbar"><a class="brand" href="#" aria-label="한 줌 암기 처음으로"><span class="brand-icon" aria-hidden="true">米</span> 한 줌 암기</a><button id="help" class="icon-button" aria-label="암기어와 사용 방법">?</button></header>
+    <header class="topbar"><a class="brand" href="#" aria-label="한 줌 암기 처음으로"><span class="brand-icon" aria-hidden="true">米</span> 한 줌 암기</a><span class="brand-credit">MADE BY 정원</span><button id="help" class="icon-button" aria-label="암기어와 사용 방법">?</button></header>
     <main id="main">
       <section class="intro">
-        <p class="maker-credit"><span aria-hidden="true">✦</span> MADE BY JEONGWON</p>
         <p class="eyebrow">한식조리기능사 · 실기 양념장</p>
         <h1>양념 한 줌,<br>기억에 쏙.</h1>
         <p class="intro-copy">33개 메뉴를 한 장씩.<br class="mobile-break"> 보고, 가리고, 다시 떠올려요.</p>
@@ -34,7 +33,7 @@
         <div id="cards" class="cards"></div>
         <div id="empty" class="empty" hidden><span aria-hidden="true">◌</span><h3>아직 여기는 비어 있어요</h3><p id="empty-text"></p><button id="clear-filters" class="primary-button">전체 카드 보기</button></div>
       </section>
-      <footer class="footnote"><p class="maker-signature">MADE BY JEONGWON</p><p>시험 지급재료·수량·규격: <a href="https://www.q-net.or.kr/cst006.do?artlSeq=5250945&amp;brdId=Q006&amp;id=cst00602" target="_blank" rel="noopener noreferrer">큐넷 2026년도 공개과제</a> 기준.<br>지급량과 실제 양념 사용량은 다릅니다.</p><p>박문각 실기 영상 기준 · 재료 구성 암기용</p><p>화면 재료표와 조리 장면을 대조한 정리입니다.<br>음성 직접 청취 검증 및 정량 레시피는 포함하지 않습니다.</p><button id="reset" class="text-button">학습 기록 초기화</button><p id="storage-note">학습 기록은 이 기기의 브라우저에 저장돼요.</p></footer>
+      <footer class="footnote"><p class="maker-signature">MADE BY 정원</p><p>시험 지급재료·수량·규격: <a href="https://www.q-net.or.kr/cst006.do?artlSeq=5250945&amp;brdId=Q006&amp;id=cst00602" target="_blank" rel="noopener noreferrer">큐넷 2026년도 공개과제</a> 기준.<br>지급량과 실제 양념 사용량은 다릅니다.</p><p>박문각 실기 영상 기준 · 재료 구성 암기용</p><p>화면 재료표와 조리 장면을 대조한 정리입니다.<br>음성 직접 청취 검증 및 정량 레시피는 포함하지 않습니다.</p><button id="reset" class="text-button">학습 기록 초기화</button><p id="storage-note">학습 기록은 이 기기의 브라우저에 저장돼요.</p></footer>
     </main>
   </div>
   <nav class="bottom-nav" aria-label="학습 모드"><button data-view="cards" class="nav-button active" aria-current="page"><span aria-hidden="true">▤</span>전체 카드</button><button data-view="study" class="nav-button"><span aria-hidden="true">⤨</span>랜덤 암기</button><button data-view="review" class="nav-button"><span aria-hidden="true">↺</span>다시 보기<i id="nav-review-count">0</i></button></nav>
