@@ -1,4 +1,4 @@
-const CACHE = 'hansik-memory-1';
+const CACHE = 'hansik-memory-2';
 const FILES = ['./','./index.html','./styles.css','./data.js','./app.js','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('hansik-memory-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
