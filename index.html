@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f5ee">
+  <meta name="description" content="한식 실기 33개 메뉴의 양념을 카드로 외우세요. 양념 가리기, 랜덤 암기, 다시 보기와 진도 저장.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>한 줌 암기 · 한식 실기 양념장</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./data.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar"><a class="brand" href="#" aria-label="한 줌 암기 처음으로"><span class="brand-icon" aria-hidden="true">米</span> 한 줌 암기</a><button id="help" class="icon-button" aria-label="암기어와 사용 방법">?</button></header>
+    <main id="main">
+      <section class="intro">
+        <p class="eyebrow">한식조리기능사 · 실기 양념장</p>
+        <h1>양념 한 줌,<br>기억에 쏙.</h1>
+        <p class="intro-copy">33개 메뉴를 한 장씩.<br class="mobile-break"> 보고, 가리고, 다시 떠올려요.</p>
+        <div class="progress-heading"><span>차곡차곡 쌓이는 기억</span><strong id="progress-label">0 / 33</strong></div>
+        <div class="progress-track" role="progressbar" aria-label="외운 메뉴" aria-valuemin="0" aria-valuemax="33" aria-valuenow="0"><div id="progress-fill"></div></div>
+        <div class="progress-meta"><span id="review-count">다시 볼 메뉴 0개</span><span>오늘도 한 장부터</span></div>
+      </section>
+      <section class="workspace" aria-label="양념 암기 카드">
+        <div class="section-heading"><div><p class="eyebrow" id="view-kicker">MY RECIPE CARDS</p><h2 id="view-title">나의 양념 카드</h2></div><button id="visibility-toggle" class="text-button" aria-pressed="false">양념 모두 보기</button></div>
+        <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="메뉴나 양념을 찾아보세요" aria-label="메뉴 또는 양념 검색" autocomplete="off"><kbd>/</kbd></div>
+        <div class="filters" role="group" aria-label="학습 상태 필터"><button data-filter="all" class="filter active" aria-pressed="true">전체 <span>33</span></button><button data-filter="new" class="filter" aria-pressed="false">아직 안 외움 <span>33</span></button><button data-filter="review" class="filter" aria-pressed="false">다시 보기 <span>0</span></button><button data-filter="known" class="filter" aria-pressed="false">외웠어요 <span>0</span></button></div>
+        <div class="list-meta"><span id="results-label">33개의 양념 카드</span><span id="list-hint">먼저 떠올린 뒤 확인해요</span></div>
+        <div id="cards" class="cards"></div>
+        <div id="empty" class="empty" hidden><span aria-hidden="true">◌</span><h3>아직 여기는 비어 있어요</h3><p id="empty-text"></p><button id="clear-filters" class="primary-button">전체 카드 보기</button></div>
+      </section>
+      <footer class="footnote"><p>박문각 실기 영상 기준 · 재료 구성 암기용</p><p>화면 재료표와 조리 장면을 대조한 정리입니다.<br>음성 직접 청취 검증 및 정량 레시피는 포함하지 않습니다.</p><button id="reset" class="text-button">학습 기록 초기화</button><p id="storage-note">학습 기록은 이 기기의 브라우저에 저장돼요.</p></footer>
+    </main>
+  </div>
+  <nav class="bottom-nav" aria-label="학습 모드"><button data-view="cards" class="nav-button active" aria-current="page"><span aria-hidden="true">▤</span>전체 카드</button><button data-view="study" class="nav-button"><span aria-hidden="true">⤨</span>랜덤 암기</button><button data-view="review" class="nav-button"><span aria-hidden="true">↺</span>다시 보기<i id="nav-review-count">0</i></button></nav>
+  <dialog id="help-dialog"><div class="dialog-top"><span class="eyebrow">작게 나눠, 오래 기억하기</span><button id="close-help" class="icon-button" aria-label="도움말 닫기">×</button></div><h2>나만의 양념 암기법</h2><p>추가 양념을 먼저 읽고,<br><strong>간설파마후깨참</strong> 순서로 외워요.</p><div class="legend"><span><b>간</b>간장</span><span><b>소</b>소금</span><span><b>설</b>설탕</span><span><b>파</b>파</span><span><b>마</b>마늘</span><span><b>후</b>후추</span><span><b>깨</b>깨소금</span><span><b>참</b>참기름</span></div><div class="tip"><strong>고추장 + 간설파마후깨참</strong><p>빠지는 재료는 글자도 쏙 빼요.<br>장국죽은 설탕 없이 <b>간파마후깨참</b>.</p></div><p class="dialog-note">양념장·밑간·유장은 따로 표시했어요. 파가 고명이나 건더기인 경우는 참고 메모를 확인하세요.</p><p class="dialog-note">랜덤 암기는 현재 필터와 검색 결과에서 출제해요. 답을 확인한 뒤 학습 상태를 누르면 다음 카드로 넘어갑니다.</p><p class="dialog-note">휴대폰 브라우저 메뉴에서 ‘홈 화면에 추가’를 해두면 편해요. 온라인에서 한 번 연 뒤에는 저장된 페이지를 오프라인에서도 볼 수 있어요. 기록은 기기 간 동기화되지 않습니다.</p></dialog>
+  <dialog id="reset-dialog"><div class="dialog-top"><span class="eyebrow">처음부터 다시</span><button id="cancel-reset" class="icon-button" aria-label="초기화 취소">×</button></div><h2>학습 기록을 비울까요?</h2><p>외웠어요·다시 보기 기록이 모두 지워져요.<br>33개 양념 카드는 그대로 남아 있어요.</p><button id="confirm-reset" class="primary-button">학습 기록 초기화하기</button></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
