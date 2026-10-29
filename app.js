@@ -7,6 +7,7 @@
   try { const saved = JSON.parse(localStorage.getItem(KEY) || '{}'); if (saved && typeof saved === 'object' && !Array.isArray(saved)) for (const menu of menus) if (['known','review'].includes(saved[menu.id])) records[menu.id] = saved[menu.id]; } catch { storageOK = false; }
   let view = 'cards', filter = 'all', query = '', allVisible = false, currentId = null, round = [], answered = 0;
   const revealed = new Set();
+  const openRecipes = new Set();
   const $ = selector => document.querySelector(selector);
   const escape = value => String(value).replace(/[&<>"']/g, x => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
   const statusOf = menu => records[menu.id] || 'new';
@@ -32,10 +33,15 @@
     const expanded = /^[간소설파마후깨참]+$/.test(mnemonic) ? [...mnemonic].map(c=>ingredientNames[c]).join(' · ') : '';
     return `<div class="answer-block"><span class="answer-label">${escape(part.label)}</span>${extra?`<span class="answer-extras">${escape(extra)}<b>＋</b></span>`:''}<strong class="mnemonic">${escape(mnemonic)}</strong>${expanded?`<div class="expanded">${escape(expanded)}</div>`:''}</div>`;
   }).join(''); }
+  function recipeHTML(menu) {
+    if (!menu.recipe) return '';
+    const recipe = menu.recipe;
+    return `<details class="recipe-details" data-recipe-id="${menu.id}" ${openRecipes.has(menu.id)?'open':''}><summary><span class="recipe-closed">레시피 요약 펼치기</span><span class="recipe-open">레시피 요약 접기</span><span class="recipe-time">${escape(recipe.minutes)}분</span></summary><div class="recipe-body"><p class="recipe-source">제공한 사진 기준 · T = 큰술, C = 컵</p><ol>${recipe.steps.map(step=>`<li>${escape(step)}</li>`).join('')}</ol>${recipe.finish?`<p class="recipe-finish">${escape(recipe.finish)}</p>`:''}${recipe.note?`<p class="recipe-note">${escape(recipe.note)}</p>`:''}</div></details>`;
+  }
   function cardHTML(menu) {
     const visible = isStudy() ? revealed.has(menu.id) : allVisible || revealed.has(menu.id), status = statusOf(menu);
     const statusLabel = {new:'아직 안 외움',known:'외웠어요',review:'다시 보기'}[status];
-    return `<article class="card" data-id="${menu.id}" aria-label="${escape(menu.name)} 양념 카드"><div class="card-head"><span class="card-number">${String(menu.id).padStart(2,'0')}</span><h3>${escape(menu.name)}</h3><span class="status ${status}">${statusLabel}</span></div><div class="card-ingredients"><span>시험 지급재료 · ${(menu.materials || []).length}종</span><p>${(menu.ingredients || []).map(escape).join(" · ")}</p><details class="material-details"><summary>지급량·규격 보기</summary><dl>${(menu.materials || []).map(item=>`<div><dt>${escape(item.name)}${item.spec || item.note ? `<small>${escape([item.spec,item.note].filter(Boolean).join(" · "))}</small>` : ""}</dt><dd>${escape(item.quantity)} ${escape(item.unit)}</dd></div>`).join("")}</dl><p class="material-tip">지급량은 양념에 모두 넣는 사용량이 아니에요. 재료 수급에 따라 일부 변경될 수 있어요.</p></details></div>${visible?`${answerHTML(menu)}${menu.note?`<div class="card-note">${escape(menu.note)}</div>`:''}<div class="answer-control"><button data-action="hide" data-id="${menu.id}" aria-label="${escape(menu.name)} 양념 가리기">양념 가리기 ↑</button></div>`:`<button class="answer-hidden" data-action="reveal" data-id="${menu.id}" aria-label="${escape(menu.name)} 양념 보기"><span aria-hidden="true">✧</span><strong>어떤 양념이 들어갈까요?</strong><small>떠올렸다면 눌러서 확인하기</small></button>`}<div class="card-actions"><button class="mark-button review ${status==='review'?'selected':''}" data-action="review" data-id="${menu.id}" aria-pressed="${status==='review'}" ${isStudy()&&!visible?'disabled':''}>↺ 다시 보기</button><button class="mark-button known ${status==='known'?'selected':''}" data-action="known" data-id="${menu.id}" aria-pressed="${status==='known'}" ${isStudy()&&!visible?'disabled':''}>✓ 외웠어요</button></div><a class="video-link" href="${menu.video}" target="_blank" rel="noopener noreferrer">박문각 영상 보기 ↗</a></article>`;
+    return `<article class="card" data-id="${menu.id}" aria-label="${escape(menu.name)} 양념 카드"><div class="card-head"><span class="card-number">${String(menu.id).padStart(2,'0')}</span><h3>${escape(menu.name)}</h3><span class="status ${status}">${statusLabel}</span></div><div class="card-ingredients"><span>시험 지급재료 · ${(menu.materials || []).length}종</span><p>${(menu.ingredients || []).map(escape).join(" · ")}</p><details class="material-details"><summary>지급량·규격 보기</summary><dl>${(menu.materials || []).map(item=>`<div><dt>${escape(item.name)}${item.spec || item.note ? `<small>${escape([item.spec,item.note].filter(Boolean).join(" · "))}</small>` : ""}</dt><dd>${escape(item.quantity)} ${escape(item.unit)}</dd></div>`).join("")}</dl><p class="material-tip">지급량은 양념에 모두 넣는 사용량이 아니에요. 재료 수급에 따라 일부 변경될 수 있어요.</p></details></div>${visible?`${answerHTML(menu)}${menu.note?`<div class="card-note">${escape(menu.note)}</div>`:''}<div class="answer-control"><button data-action="hide" data-id="${menu.id}" aria-label="${escape(menu.name)} 양념 가리기">양념 가리기 ↑</button></div>`:`<button class="answer-hidden" data-action="reveal" data-id="${menu.id}" aria-label="${escape(menu.name)} 양념 보기"><span aria-hidden="true">✧</span><strong>어떤 양념이 들어갈까요?</strong><small>떠올렸다면 눌러서 확인하기</small></button>`}${recipeHTML(menu)}<div class="card-actions"><button class="mark-button review ${status==='review'?'selected':''}" data-action="review" data-id="${menu.id}" aria-pressed="${status==='review'}" ${isStudy()&&!visible?'disabled':''}>↺ 다시 보기</button><button class="mark-button known ${status==='known'?'selected':''}" data-action="known" data-id="${menu.id}" aria-pressed="${status==='known'}" ${isStudy()&&!visible?'disabled':''}>✓ 외웠어요</button></div><a class="video-link" href="${menu.video}" target="_blank" rel="noopener noreferrer">박문각 영상 보기 ↗</a></article>`;
   }
   function render() {
     const c = counts(), available = pool();
@@ -62,6 +68,7 @@
     if(!storageOK)$('#storage-note').textContent='현재 브라우저에 기록을 저장할 수 없어요. 이번 화면에서만 유지됩니다.';
   }
   function setView(next) { view=next;filter=next==='review'?'review':'all';round=[];currentId=null;revealed.clear();allVisible=false;render();$('.workspace').scrollIntoView({behavior:'smooth',block:'start'}); }
+  $('#cards').addEventListener('toggle',event=>{const details=event.target;if(!details.matches('.recipe-details'))return;const id=Number(details.dataset.recipeId);if(details.open)openRecipes.add(id);else openRecipes.delete(id);},true);
   $('#cards').addEventListener('click',event=>{
     const button=event.target.closest('button[data-action]');if(!button)return;
     const id=Number(button.dataset.id),action=button.dataset.action;
