@@ -18,6 +18,7 @@
     <header class="topbar"><a class="brand" href="#" aria-label="한 줌 암기 처음으로"><span class="brand-icon" aria-hidden="true">米</span> 한 줌 암기</a><button id="help" class="icon-button" aria-label="암기어와 사용 방법">?</button></header>
     <main id="main">
       <section class="intro">
+        <p class="maker-credit">정원이 만들었어요 <span aria-hidden="true">✦</span></p>
         <p class="eyebrow">한식조리기능사 · 실기 양념장</p>
         <h1>양념 한 줌,<br>기억에 쏙.</h1>
         <p class="intro-copy">33개 메뉴를 한 장씩.<br class="mobile-break"> 보고, 가리고, 다시 떠올려요.</p>
@@ -27,13 +28,13 @@
       </section>
       <section class="workspace" aria-label="양념 암기 카드">
         <div class="section-heading"><div><p class="eyebrow" id="view-kicker">MY RECIPE CARDS</p><h2 id="view-title">나의 양념 카드</h2></div><button id="visibility-toggle" class="text-button" aria-pressed="false">양념 모두 보기</button></div>
-        <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="메뉴나 양념을 찾아보세요" aria-label="메뉴 또는 양념 검색" autocomplete="off"><kbd>/</kbd></div>
+        <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="메뉴나 재료, 양념을 찾아보세요" aria-label="메뉴, 재료 또는 양념 검색" autocomplete="off"><kbd>/</kbd></div>
         <div class="filters" role="group" aria-label="학습 상태 필터"><button data-filter="all" class="filter active" aria-pressed="true">전체 <span>33</span></button><button data-filter="new" class="filter" aria-pressed="false">아직 안 외움 <span>33</span></button><button data-filter="review" class="filter" aria-pressed="false">다시 보기 <span>0</span></button><button data-filter="known" class="filter" aria-pressed="false">외웠어요 <span>0</span></button></div>
         <div class="list-meta"><span id="results-label">33개의 양념 카드</span><span id="list-hint">먼저 떠올린 뒤 확인해요</span></div>
         <div id="cards" class="cards"></div>
         <div id="empty" class="empty" hidden><span aria-hidden="true">◌</span><h3>아직 여기는 비어 있어요</h3><p id="empty-text"></p><button id="clear-filters" class="primary-button">전체 카드 보기</button></div>
       </section>
-      <footer class="footnote"><p>박문각 실기 영상 기준 · 재료 구성 암기용</p><p>화면 재료표와 조리 장면을 대조한 정리입니다.<br>음성 직접 청취 검증 및 정량 레시피는 포함하지 않습니다.</p><button id="reset" class="text-button">학습 기록 초기화</button><p id="storage-note">학습 기록은 이 기기의 브라우저에 저장돼요.</p></footer>
+      <footer class="footnote"><p class="maker-signature">정원이 만든 한 줌 암기</p><p>주요 재료는 기억을 돕는 요약입니다. 양념·분량은 별도로 확인하세요.</p><p>박문각 실기 영상 기준 · 재료 구성 암기용</p><p>화면 재료표와 조리 장면을 대조한 정리입니다.<br>음성 직접 청취 검증 및 정량 레시피는 포함하지 않습니다.</p><button id="reset" class="text-button">학습 기록 초기화</button><p id="storage-note">학습 기록은 이 기기의 브라우저에 저장돼요.</p></footer>
     </main>
   </div>
   <nav class="bottom-nav" aria-label="학습 모드"><button data-view="cards" class="nav-button active" aria-current="page"><span aria-hidden="true">▤</span>전체 카드</button><button data-view="study" class="nav-button"><span aria-hidden="true">⤨</span>랜덤 암기</button><button data-view="review" class="nav-button"><span aria-hidden="true">↺</span>다시 보기<i id="nav-review-count">0</i></button></nav>
