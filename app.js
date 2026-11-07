@@ -28,15 +28,27 @@
     currentId = round.pop() ?? null;
     if (currentId) revealed.delete(currentId);
   }
-  function answerHTML(menu) { return menu.parts.map(part => {
+  const spoonText = value => String(value).replace(/([0-9/~.]+)T/g,'$1큰술').replace(/([0-9/~.]+)t/g,'$1작은술');
+  function amountRows(menu,index) {
+    const group=menu.amounts?.groups[index];if(!group)return '';
+    const part=menu.parts[index], split=part.text.split(' + '), mnemonic=split.pop();
+    const names=[...split.join('·').split('·').filter(Boolean),...(/^[간소설파마후깨참]+$/.test(mnemonic)?[...mnemonic].map(c=>ingredientNames[c]):[])];
+    const rows=[...new Set(names)];
+    return `${rows.length?`<dl class="amount-grid">${rows.map(name=>`<div><dt>${escape(name)}</dt><dd>${escape(spoonText(group.values[name]||'계량 미확인'))}</dd></div>`).join('')}</dl>`:''}${group.note?`<p class="amount-note">${escape(group.note)}</p>`:''}`;
+  }
+  function amountSources(menu) {
+    if(!menu.amounts)return '';
+    return `<p class="amount-guide">연습용 참고 배합 · 1큰술 = 15mL / 1작은술 = 5mL<br>평평하게 계량하되 별도 표시는 원문 기준. 준비량을 전부 넣지 않고 재료 양에 맞춰 나눠 써요. ‘소량·약간’은 원문에 수치가 없는 항목입니다.</p><p class="amount-sources">분량 참고: ${menu.amounts.sources.map(source=>`<a href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.title)} ↗</a>`).join(' · ')}</p>`;
+  }
+  function answerHTML(menu) { return menu.parts.map((part,index) => {
     const split = part.text.split(' + '), mnemonic = split.pop(), extra = split.join(' · ');
     const expanded = /^[간소설파마후깨참]+$/.test(mnemonic) ? [...mnemonic].map(c=>ingredientNames[c]).join(' · ') : '';
-    return `<div class="answer-block"><span class="answer-label">${escape(part.label)}</span>${extra?`<span class="answer-extras">${escape(extra)}<b>＋</b></span>`:''}<strong class="mnemonic">${escape(mnemonic)}</strong>${expanded?`<div class="expanded">${escape(expanded)}</div>`:''}</div>`;
-  }).join(''); }
+    return `<div class="answer-block"><span class="answer-label">${escape(part.label)}</span>${extra?`<span class="answer-extras">${escape(extra)}<b>＋</b></span>`:''}<strong class="mnemonic">${escape(mnemonic)}</strong>${menu.amounts?`<span class="amount-label">대략적인 연습 분량</span>${amountRows(menu,index)}`:expanded?`<div class="expanded">${escape(expanded)}</div>`:''}</div>`;
+  }).join('') + amountSources(menu); }
   function recipeHTML(menu) {
     if (!menu.recipe) return '';
     const recipe = menu.recipe;
-    return `<details class="recipe-details" data-recipe-id="${menu.id}" ${openRecipes.has(menu.id)?'open':''}><summary><span class="recipe-closed">레시피 요약 펼치기</span><span class="recipe-open">레시피 요약 접기</span><span class="recipe-time">${escape(recipe.minutes)}분</span></summary><div class="recipe-body"><p class="recipe-source">제공한 사진 기준 · T = 큰술, C = 컵</p><ol>${recipe.steps.map(step=>`<li>${escape(step)}</li>`).join('')}</ol>${recipe.finish?`<p class="recipe-finish">${escape(recipe.finish)}</p>`:''}${recipe.note?`<p class="recipe-note">${escape(recipe.note)}</p>`:''}</div></details>`;
+    return `<details class="recipe-details" data-recipe-id="${menu.id}" ${openRecipes.has(menu.id)?'open':''}><summary><span class="recipe-closed">레시피 요약 펼치기</span><span class="recipe-open">레시피 요약 접기</span><span class="recipe-time">${escape(recipe.minutes)}분</span></summary><div class="recipe-body"><p class="recipe-source">제공한 사진 기준 · T = 큰술, C = 컵</p><section class="recipe-amounts" aria-label="양념 연습 분량"><h4>양념 분량 함께 보기</h4><p class="amount-note">사진 요약에 일반 실기 자료의 참고 배합을 보충했어요. 아래 조리 순서의 사진 배합과 다를 수 있습니다.</p>${menu.parts.map((part,index)=>`<h5>${escape(part.label)}</h5>${amountRows(menu,index)}`).join('')}${amountSources(menu)}</section><ol>${recipe.steps.map(step=>`<li>${escape(step)}</li>`).join('')}</ol>${recipe.finish?`<p class="recipe-finish">${escape(recipe.finish)}</p>`:''}${recipe.note?`<p class="recipe-note">${escape(recipe.note)}</p>`:''}</div></details>`;
   }
   function cardHTML(menu) {
     const visible = isStudy() ? revealed.has(menu.id) : allVisible || revealed.has(menu.id), status = statusOf(menu);
