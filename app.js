@@ -48,7 +48,7 @@
   function recipeHTML(menu) {
     if (!menu.recipe) return '';
     const recipe = menu.recipe;
-    return `<details class="recipe-details" data-recipe-id="${menu.id}" ${openRecipes.has(menu.id)?'open':''}><summary><span class="recipe-closed">레시피 요약 펼치기</span><span class="recipe-open">레시피 요약 접기</span><span class="recipe-time">${escape(recipe.minutes)}분</span></summary><div class="recipe-body"><p class="recipe-source">제공한 사진 기준 · T = 큰술, C = 컵</p><section class="recipe-amounts" aria-label="양념 연습 분량"><h4>양념 분량 함께 보기</h4><p class="amount-note">사진 요약에 일반 실기 자료의 참고 배합을 보충했어요. 아래 조리 순서의 사진 배합과 다를 수 있습니다.</p>${menu.parts.map((part,index)=>`<h5>${escape(part.label)}</h5>${amountRows(menu,index)}`).join('')}${amountSources(menu)}</section><ol>${recipe.steps.map(step=>`<li>${escape(step)}</li>`).join('')}</ol>${recipe.finish?`<p class="recipe-finish">${escape(recipe.finish)}</p>`:''}${recipe.note?`<p class="recipe-note">${escape(recipe.note)}</p>`:''}</div></details>`;
+    return `<details class="recipe-details" data-recipe-id="${menu.id}" ${openRecipes.has(menu.id)?'open':''}><summary><span class="recipe-closed">레시피 요약 펼치기</span><span class="recipe-open">레시피 요약 접기</span><span class="recipe-time">${escape(recipe.minutes)}분</span></summary><div class="recipe-body"><p class="recipe-source">제공한 사진 기준 · T = 큰술, C = 컵</p><ol>${recipe.steps.map(step=>`<li>${escape(step)}</li>`).join('')}</ol>${recipe.finish?`<p class="recipe-finish">${escape(recipe.finish)}</p>`:''}${recipe.note?`<p class="recipe-note">${escape(recipe.note)}</p>`:''}</div></details>`;
   }
   function cardHTML(menu) {
     const visible = isStudy() ? revealed.has(menu.id) : allVisible || revealed.has(menu.id), status = statusOf(menu);
