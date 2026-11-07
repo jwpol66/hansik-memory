@@ -1,5 +1,5 @@
-const CACHE = 'hansik-memory-7';
-const FILES = ['./','./index.html','./styles.css?v=6','./data.js?v=6','./app.js?v=6','./manifest.webmanifest','./icon.svg'];
+const CACHE = 'hansik-memory-8';
+const FILES = ['./','./index.html','./styles.css?v=7','./data.js?v=7','./app.js?v=7','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('hansik-memory-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{
