@@ -10,6 +10,28 @@ window.MENUS = [
     ],
     "note": "소금은 도라지 절임용.",
     "video": "https://www.youtube.com/watch?v=D1NOhKVmPcM",
+    "amounts": {
+      "sources": [
+        {
+          "title": "고고리의 한식 실기 · 도라지생채",
+          "url": "https://gogoart.tistory.com/entry/한식-4도라지생채"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "고추장": "1T",
+            "고춧가루": "1t",
+            "식초": "1t",
+            "설탕": "1t",
+            "파": "소량",
+            "마늘": "소량",
+            "깨소금": "소량"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 15,
       "steps": [
@@ -106,6 +128,29 @@ window.MENUS = [
     ],
     "note": "고추장·참기름 없음.",
     "video": "https://www.youtube.com/watch?v=O8tsFJBtRqM",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/3"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "고춧가루": "1/3t부터",
+            "식초": "1t",
+            "생강": "소량",
+            "소금": "1/6t",
+            "설탕": "1t",
+            "파": "소량",
+            "마늘": "소량",
+            "깨소금": "소량"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 15,
       "steps": [
@@ -202,6 +247,28 @@ window.MENUS = [
     ],
     "note": "고추장·참기름 없음.",
     "video": "https://www.youtube.com/watch?v=sKCORKFM9C0",
+    "amounts": {
+      "sources": [
+        {
+          "title": "청춘23 실기 연습 · 더덕생채",
+          "url": "https://young23.tistory.com/95"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "고춧가루": "색을 보며 소량",
+            "식초": "1t",
+            "소금": "약간",
+            "설탕": "1t",
+            "파": "소량",
+            "마늘": "소량",
+            "깨소금": "약간"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 20,
       "steps": [
@@ -291,6 +358,25 @@ window.MENUS = [
     ],
     "note": "실파·홍고추는 건더기. 참기름은 마지막.",
     "video": "https://www.youtube.com/watch?v=eboiSPS2q4Y",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/11"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "새우젓": "국물 1t",
+            "소금": "1/3t부터",
+            "마늘": "1t",
+            "참기름": "1/6~1/3t"
+          },
+          "note": "물 400mL 기준. 새우젓의 염도에 따라 소금은 줄여 넣어요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 20,
       "steps": [
@@ -383,6 +469,36 @@ window.MENUS = [
     ],
     "note": "영상 시연은 고추장 양념에 간장도 조금 추가.",
     "video": "https://www.youtube.com/watch?v=YxSqIlmLCSU",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/39"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "고추장": "2T (깎아서 준비)",
+            "간장": "1t",
+            "설탕": "1t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1t"
+          },
+          "note": "원문은 수북한 고추장 1큰술을 깎아서 2큰술로 설명해요. 준비한 양을 얇게 나눠 발라요."
+        },
+        {
+          "values": {
+            "간장": "1/3t",
+            "참기름": "1t"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 20,
       "steps": [
@@ -490,6 +606,28 @@ window.MENUS = [
     ],
     "note": "물로 농도 조절. 마지막 국물은 남은 양념에 물·소금. 설탕·깨·참기름 없음.",
     "video": "https://www.youtube.com/watch?v=uyG3DATftG0",
+    "amounts": {
+      "sources": [
+        {
+          "title": "실기 연습 기록 · 오이소박이",
+          "url": "https://huiyu.tistory.com/entry/한식조리사-실기-준비-돼지갈비찜-오이소박이"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "고춧가루": "1T",
+            "새우젓": "계량 미확인",
+            "생강": "소량",
+            "부추": "지급재료 범위",
+            "소금": "약간",
+            "파": "소량",
+            "마늘": "소량"
+          },
+          "note": "고춧가루를 불릴 물 약 1큰술. 이 참고자료에는 새우젓의 계량값이 없어 추정하지 않았어요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 20,
       "steps": [
@@ -581,6 +719,28 @@ window.MENUS = [
     ],
     "note": "고기·두부 반죽 양념.",
     "video": "https://www.youtube.com/watch?v=OKfQbTyP4o0",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/34"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "소금": "1/3t",
+            "설탕": "1/2t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1/3t"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 20,
       "steps": [
@@ -703,6 +863,28 @@ window.MENUS = [
     ],
     "note": "배 갈변 방지용 설탕물, 마늘편 고명은 별도.",
     "video": "https://www.youtube.com/watch?v=Kv-GyMTh8gs",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/16"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "소금": "1/3t",
+            "설탕": "1/2t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1/2t"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 20,
       "steps": [
@@ -814,6 +996,36 @@ window.MENUS = [
     ],
     "note": "표고 밑간과 속 양념을 분리.",
     "video": "https://www.youtube.com/watch?v=rRzNjXZ0ZgQ",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/24"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "소금": "1/6t",
+            "설탕": "1/3t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1/3t"
+          },
+          "note": ""
+        },
+        {
+          "values": {
+            "간장": "1/3t",
+            "설탕": "1/6t",
+            "참기름": "1/3t"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 20,
       "steps": [
@@ -953,6 +1165,28 @@ window.MENUS = [
     ],
     "note": "물 사용. 파는 토막, 마늘·생강은 편. 잣가루 고명. 깨소금 없음.",
     "video": "https://www.youtube.com/watch?v=Rf1Ybcy8irI",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/4"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "생강": "편 썰어 사용",
+            "간장": "2T",
+            "설탕": "1T",
+            "파": "2cm 길이로 사용",
+            "마늘": "편 썰어 사용",
+            "후추": "소량",
+            "참기름": "1/3t"
+          },
+          "note": "조림물은 원문 기준 약 50mL. 파·마늘·생강은 다진 양념이 아니라 편·토막으로 넣어요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 20,
       "steps": [
@@ -1051,6 +1285,29 @@ window.MENUS = [
     ],
     "note": "배즙은 연육용. 잣가루 고명. 시연에는 후추 포함.",
     "video": "https://www.youtube.com/watch?v=H2e3G1MCt88",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리쌤 실기 · 너비아니구이",
+          "url": "https://baesam-cooking.tistory.com/46"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "배즙": "고기 연육용",
+            "간장": "1T",
+            "설탕": "1/2T",
+            "파": "약간",
+            "마늘": "약간",
+            "후추": "약간",
+            "깨소금": "약간",
+            "참기름": "1/2t"
+          },
+          "note": "소고기 100g 기준의 참고 배합이에요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 25,
       "steps": [
@@ -1168,6 +1425,27 @@ window.MENUS = [
     ],
     "note": "물 사용. 파는 채 썰어 실고추와 고명으로 사용하므로 양념장에서는 제외.",
     "video": "https://www.youtube.com/watch?v=r_ASrsgggXU",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/20"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "간장": "1T",
+            "설탕": "1t",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1t"
+          },
+          "note": "물 100mL. 참고자료의 다진 파는 기존 카드 기준에 맞춰 고명과 구분했어요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 25,
       "steps": [
@@ -1284,6 +1562,23 @@ window.MENUS = [
     ],
     "note": "후추는 흰후추. 별도 양념장 없음.",
     "video": "https://www.youtube.com/watch?v=oZnoPMHvw04",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/7"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "소금": "1/3t",
+            "후추": "흰후추 소량"
+          },
+          "note": "손질한 생선 전체에 고루 뿌리는 밑간 양이에요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 25,
       "steps": [
@@ -1356,6 +1651,20 @@ window.MENUS = [
     ],
     "note": "소금은 달걀지단용.",
     "video": "https://www.youtube.com/watch?v=kdaqouOIGyM",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/6"
+        }
+      ],
+      "groups": [
+        {
+          "values": {},
+          "note": "별도 양념장은 없어요. 원문 지단 밑간은 흰자·노른자에 소금 각각 1/3작은술로 안내하므로 달걀 양에 맞춰 조절해요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 25,
       "steps": [
@@ -1430,6 +1739,28 @@ window.MENUS = [
     ],
     "note": "고기·두부 반죽 양념.",
     "video": "https://www.youtube.com/watch?v=QCmhjr0uj5A",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/37"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "소금": "1/6t",
+            "설탕": "1/3t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1/3t"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 25,
       "steps": [
@@ -1565,6 +1896,38 @@ window.MENUS = [
     ],
     "note": "후추·고춧가루 없음.",
     "video": "https://www.youtube.com/watch?v=6nACIfF3AOs",
+    "amounts": {
+      "sources": [
+        {
+          "title": "청춘23 실기 연습 · 더덕구이",
+          "url": "https://young23.tistory.com/104"
+        },
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/32"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "고추장": "1T",
+            "설탕": "1t",
+            "파": "1/2t",
+            "마늘": "1/4t",
+            "깨소금": "약간",
+            "참기름": "1t"
+          },
+          "note": "물 1작은술로 농도 조절. 간장·소금을 추가하는 다른 배합과 섞지 않았어요."
+        },
+        {
+          "values": {
+            "간장": "1/3t",
+            "참기름": "1t"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 30,
       "steps": [
@@ -1679,6 +2042,47 @@ window.MENUS = [
     ],
     "note": "시연에서는 고추장 양념에 간장도 추가.",
     "video": "https://www.youtube.com/watch?v=IbWblOiiNXQ",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/19"
+        },
+        {
+          "title": "박문각 생선양념구이 · 기존 확인 메모",
+          "url": "https://www.youtube.com/watch?v=IbWblOiiNXQ"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "고추장": "1T",
+            "간장": "1t",
+            "설탕": "1t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1/3t"
+          },
+          "note": ""
+        },
+        {
+          "values": {
+            "간장": "1/6t",
+            "참기름": "2/3t"
+          },
+          "note": "원문의 개별 계량값 기준. 유장의 일반 비율은 간장 1 : 참기름 3이에요."
+        },
+        {
+          "values": {
+            "소금": "약간",
+            "후추": "약간"
+          },
+          "note": "기존 영상 메모의 밑간 구성으로, 수치가 확인되지 않은 항목은 약간으로 표시해요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 30,
       "steps": [
@@ -1793,6 +2197,26 @@ window.MENUS = [
     ],
     "note": "물 사용. 실파는 건더기. 설탕·후추·깨·참기름 없음.",
     "video": "https://www.youtube.com/watch?v=vJsA6i4Gypw",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/30"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "고추장": "2T (깎아서 준비)",
+            "고춧가루": "1T",
+            "생강": "소량",
+            "소금": "1t부터",
+            "마늘": "소량"
+          },
+          "note": "원문 고추장은 수북한 1큰술을 깎아서 2큰술로 설명해요. 물·생선 크기와 국물 농도에 맞춰 나눠 넣어요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 30,
       "steps": [
@@ -1925,6 +2349,28 @@ window.MENUS = [
     ],
     "note": "잣가루 고명은 별도.",
     "video": "https://www.youtube.com/watch?v=KeMY7eGW7MM",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/35"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "소금": "1/3t",
+            "설탕": "1/2t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1/3t"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 30,
       "steps": [
@@ -2040,6 +2486,30 @@ window.MENUS = [
     ],
     "note": "대파는 어슷 썬 건더기이므로 양념장에서는 제외.",
     "video": "https://www.youtube.com/watch?v=OfqPAydl2C4",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/5"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "고추장": "2T",
+            "고춧가루": "1t",
+            "생강": "소량",
+            "간장": "1t",
+            "설탕": "1T",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1t"
+          },
+          "note": "원문은 양념을 준비한 뒤 오징어 양에 맞춰 일부부터 넣도록 안내해요. 원문의 다진 파·소금 추가는 기존 암기 구성과 구분했어요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 30,
       "steps": [
@@ -2199,6 +2669,35 @@ window.MENUS = [
     ],
     "note": "국물은 국간장으로 색을 맞추고 소금으로 간. 육수용 파·마늘 별도.",
     "video": "https://www.youtube.com/watch?v=2Vc3u1ibqiA",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/10"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "소금": "1/3t",
+            "설탕": "1/2t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1/3t"
+          },
+          "note": ""
+        },
+        {
+          "values": {
+            "간장": "국간장 1t",
+            "소금": "1/3t부터"
+          },
+          "note": "맑은 육수의 간을 맞추는 참고 양이에요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 30,
       "steps": [
@@ -2350,6 +2849,33 @@ window.MENUS = [
     ],
     "note": "고기·표고 밑간은 진간장, 죽 마지막 간은 국간장. 설탕 넣지 않음.",
     "video": "https://www.youtube.com/watch?v=szRfsh95zgg",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/25"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "간장": "고기 1t / 표고 1/3t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "고기 1/3t / 표고 1/6t"
+          },
+          "note": "원문은 고기·표고를 따로 양념해요. 함께 양념할 때도 각각의 전량을 무조건 합해 넣지는 마세요. 설탕은 넣지 않아요."
+        },
+        {
+          "values": {
+            "간장": "국간장 1t부터"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 30,
       "steps": [
@@ -2456,6 +2982,30 @@ window.MENUS = [
     ],
     "note": "",
     "video": "https://www.youtube.com/watch?v=QZEi1Esdcc4",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/23"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "고추장": "3T (깎아서 준비)",
+            "생강즙": "1t",
+            "간장": "1t",
+            "설탕": "1/2T",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1/3t"
+          },
+          "note": "원문은 수북한 고추장 1큰술을 깎아서 3큰술로 설명하고, 만들어 둔 양념의 절반 정도부터 사용해요. 고기·지급량에 맞춰 남길 수 있는 준비 배합입니다."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 30,
       "steps": [
@@ -2570,6 +3120,25 @@ window.MENUS = [
     ],
     "note": "설탕·후추·깨소금 없음. 별도 곁들이는 양념간장을 만드는 과제로 정리하지 않음.",
     "video": "https://www.youtube.com/watch?v=0w-pBq_HS8U",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/31"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "간장": "1/2t",
+            "파": "소량",
+            "마늘": "소량",
+            "참기름": "1/3t"
+          },
+          "note": "고기 밑간만 해당해요. 설탕·후추·깨소금은 넣지 않아요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 30,
       "steps": [
@@ -2653,6 +3222,26 @@ window.MENUS = [
     ],
     "note": "간장도 소량 사용. 파·마늘·후추·깨·참기름 없음.",
     "video": "https://www.youtube.com/watch?v=jtRq4CJmwEE",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/29"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "겨자": "발효겨자 전량",
+            "식초": "2t",
+            "간장": "1/3t",
+            "소금": "1/6t",
+            "설탕": "2t"
+          },
+          "note": "겨자가루 1큰술 + 미지근한 물 1큰술로 개어 발효한 참고 배합이에요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 35,
       "steps": [
@@ -2794,6 +3383,24 @@ window.MENUS = [
     ],
     "note": "소금은 미나리 데침 등에 사용하며 초고추장에는 넣지 않음.",
     "video": "https://www.youtube.com/watch?v=QMUuEkEf6DM",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/36"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "고추장": "1t",
+            "식초": "1t",
+            "설탕": "1t"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 35,
       "steps": [
@@ -2893,6 +3500,30 @@ window.MENUS = [
     ],
     "note": "파는 채 썬 대파. 실파·갓·미나리·무는 김칫속 재료.",
     "video": "https://www.youtube.com/watch?v=1P1hqvBvOyg",
+    "amounts": {
+      "sources": [
+        {
+          "title": "기능짱·스타요리커피학원 · 배추김치",
+          "url": "https://www.youtube.com/watch?v=VkMknCqx1jI"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "고춧가루": "3~4T",
+            "생강": "다져서 소량",
+            "새우젓": "1T",
+            "멸치액젓": "1/2T",
+            "찹쌀풀": "2T",
+            "소금": "1t부터",
+            "설탕": "1t",
+            "파": "채 썬 지급재료",
+            "마늘": "다져서 소량"
+          },
+          "note": "절임배추 1/4포기 기준 참고 배합. 찹쌀풀은 찹쌀가루 1큰술 + 물 1/2컵으로 쑤고 식혀 필요한 양을 덜어 써요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 35,
       "steps": [
@@ -3047,6 +3678,49 @@ window.MENUS = [
     ],
     "note": "각 재료를 따로 양념·조리한 뒤 합침.",
     "video": "https://www.youtube.com/watch?v=x8Z-j3mn4Ns",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/2"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "간장": "1t",
+            "설탕": "1/2t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1/3t"
+          },
+          "note": "표고 양념의 기준 배합. 고기는 남은 표고 양념에 파·마늘·깨·후추를 더하는 원문 방식이며 각 재료에 이 양을 반복해서 넣는 뜻은 아니에요."
+        },
+        {
+          "values": {
+            "간장": "1/3t",
+            "설탕": "1/3t",
+            "참기름": "1/3t"
+          },
+          "note": ""
+        },
+        {
+          "values": {
+            "소금": "1/6t",
+            "참기름": "1/3t"
+          },
+          "note": "숙주 밑간용. 소금·참기름은 소량씩 조절해요."
+        },
+        {
+          "values": {
+            "소금": "소량"
+          },
+          "note": "절임·데침 소금과 볶을 때 간은 구분해요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 35,
       "steps": [
@@ -3235,6 +3909,34 @@ window.MENUS = [
     ],
     "note": "소금 데침·간은 고기 양념과 구분.",
     "video": "https://www.youtube.com/watch?v=j4u27Zi6s-c",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/28"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "간장": "고기용 1/3t",
+            "설탕": "고기용 1/6t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "고기용 1/3t"
+          },
+          "note": "표고는 별도로 간장 1/3작은술·설탕 1/6작은술·참기름 1/3작은술. 기존 카드의 고기·표고 통합 양념과 구분한 참고량이에요."
+        },
+        {
+          "values": {
+            "소금": "밑간 1/6t"
+          },
+          "note": "원문에는 채소 밑간 참기름 1/3작은술도 있어요. 기존 카드의 소금 구성은 유지했어요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 35,
       "steps": [
@@ -3408,6 +4110,43 @@ window.MENUS = [
     ],
     "note": "묵 밑간에는 간장을 넣지 않음.",
     "video": "https://www.youtube.com/watch?v=uRAbqlkcnSk",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/27"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "간장": "1t",
+            "설탕": "1/2t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1/3t"
+          },
+          "note": ""
+        },
+        {
+          "values": {
+            "소금": "1/3t",
+            "참기름": "1/2t"
+          },
+          "note": "세 재료의 밑간용으로 준비해 나눠 쓰는 참고 배합이에요."
+        },
+        {
+          "values": {
+            "식초": "1t",
+            "간장": "1t",
+            "설탕": "1/2t"
+          },
+          "note": ""
+        }
+      ]
+    },
     "recipe": {
       "minutes": 35,
       "steps": [
@@ -3569,6 +4308,34 @@ window.MENUS = [
     ],
     "note": "잣가루 고명은 별도.",
     "video": "https://www.youtube.com/watch?v=sitkyvzNCJY",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/26"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "간장": "고기용 1/2t",
+            "설탕": "고기용 1/3t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "고기용 1/3t"
+          },
+          "note": "표고는 별도로 간장 1/3작은술·설탕 1/6작은술·참기름 1/3작은술. 각 재료에 맞춰 나눠 써요."
+        },
+        {
+          "values": {
+            "소금": "밑간 1/6t"
+          },
+          "note": "절임·데침용 소금은 별도. 원문 채소 밑간에는 참기름 1/3작은술도 포함돼요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 35,
       "steps": [
@@ -3742,6 +4509,41 @@ window.MENUS = [
     ],
     "note": "오이·당근은 소금 절임. 밀전병 반죽의 소금은 별도.",
     "video": "https://www.youtube.com/watch?v=n3OtVwkKT8E",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/1"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "간장": "1t",
+            "설탕": "1/2t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1/3t"
+          },
+          "note": ""
+        },
+        {
+          "values": {
+            "소금": "1/6t",
+            "참기름": "1/3t"
+          },
+          "note": ""
+        },
+        {
+          "values": {
+            "소금": "오이·당근 각각 1/6t"
+          },
+          "note": "원문 절임은 각 재료에 물 1작은술. 밀전병 반죽 소금 1/6작은술은 별도예요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 40,
       "steps": [
@@ -3902,6 +4704,49 @@ window.MENUS = [
     ],
     "note": "볶음고추장에는 물과 간장 양념한 다진 고기도 넣음.",
     "video": "https://www.youtube.com/watch?v=H1m8BqW_YdQ",
+    "amounts": {
+      "sources": [
+        {
+          "title": "요리공작소 Haross 실기 강의",
+          "url": "https://zlwmzksnakak.tistory.com/17"
+        }
+      ],
+      "groups": [
+        {
+          "values": {
+            "간장": "2t",
+            "설탕": "1t",
+            "파": "소량",
+            "마늘": "소량",
+            "후추": "소량",
+            "깨소금": "소량",
+            "참기름": "1/3t"
+          },
+          "note": "고사리와 고기용 공용 배합으로 나누어 써요. 각 재료마다 같은 양을 반복해 넣지 않아요."
+        },
+        {
+          "values": {
+            "소금": "1/6t",
+            "참기름": "1/3t"
+          },
+          "note": ""
+        },
+        {
+          "values": {
+            "고추장": "2T (깎아서 준비)",
+            "설탕": "1t",
+            "참기름": "1/3t"
+          },
+          "note": "물 1작은술과 양념한 다진 고기를 함께 볶아요. 원문 고추장은 수북한 1큰술을 깎아서 2큰술로 설명해요."
+        },
+        {
+          "values": {
+            "소금": "절임 각각 1/3t"
+          },
+          "note": "원문 절임은 각 재료에 물 1작은술. 헹군 뒤 볶을 때 간은 소량 조절해요."
+        }
+      ]
+    },
     "recipe": {
       "minutes": 50,
       "steps": [
