@@ -48,7 +48,14 @@
   function recipeHTML(menu) {
     if (!menu.recipe) return '';
     const recipe = menu.recipe;
-    return `<details class="recipe-details" data-recipe-id="${menu.id}" ${openRecipes.has(menu.id)?'open':''}><summary><span class="recipe-closed">레시피 요약 펼치기</span><span class="recipe-open">레시피 요약 접기</span><span class="recipe-time">${escape(recipe.minutes)}분</span></summary><div class="recipe-body"><p class="recipe-source">제공한 사진 기준 · T = 큰술, C = 컵</p><ol>${recipe.steps.map(step=>`<li>${escape(step)}</li>`).join('')}</ol>${recipe.finish?`<p class="recipe-finish">${escape(recipe.finish)}</p>`:''}${recipe.note?`<p class="recipe-note">${escape(recipe.note)}</p>`:''}</div></details>`;
+    const steps=recipe.steps.map((step,index)=>{
+      const time=recipe.stepTimes?.[index], match=String(time||'').match(/^(\d+):(\d{2})/);
+      const seconds=match?Number(match[1])*60+Number(match[2]):null;
+      const link=seconds!==null?`<a class="recipe-timestamp" href="${escape(menu.video)}&amp;t=${seconds}s" target="_blank" rel="noopener noreferrer" aria-label="${escape(menu.name)} 영상 ${escape(time)}부터 보기">${escape(time)} ↗</a> `:'';
+      return `<li>${link}${escape(step)}</li>`;
+    }).join('');
+    const sources=(recipe.sources||[]).map(source=>`<a href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.title)} ↗</a>`).join(' · ');
+    return `<details class="recipe-details" data-recipe-id="${menu.id}" ${openRecipes.has(menu.id)?'open':''}><summary><span class="recipe-closed">레시피 요약 펼치기</span><span class="recipe-open">레시피 요약 접기</span><span class="recipe-time">${escape(recipe.minutes)}분</span></summary><div class="recipe-body"><p class="recipe-source">${escape(recipe.sourceBasis||'제공한 사진 기준')}</p><ol>${steps}</ol>${recipe.finish?`<p class="recipe-finish">${escape(recipe.finish)}</p>`:''}${recipe.note?`<p class="recipe-note">${escape(recipe.note)}</p>`:''}${sources?`<p class="recipe-source">${sources}</p>`:''}</div></details>`;
   }
   function cardHTML(menu) {
     const visible = isStudy() ? revealed.has(menu.id) : allVisible || revealed.has(menu.id), status = statusOf(menu);
