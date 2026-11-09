@@ -18,3 +18,5 @@
 .answer-surface{cursor:pointer;border-radius:12px;-webkit-tap-highlight-color:transparent}.answer-surface:focus-visible{outline:3px solid #b7cda7;outline-offset:5px}.tap-hide-hint{display:block;text-align:right;font-size:10px;color:var(--muted);margin:0 0 8px}.answer-surface:active .answer-block{background:#eaf0e1}
 
 .recipe-timestamp{font-size:10px;color:var(--muted);white-space:nowrap;text-decoration:underline;text-underline-offset:3px;margin-right:4px}.recipe-source a{text-underline-offset:3px}
+
+.recipe-water{font-size:12px;line-height:1.85;background:#edf2e8;border-radius:8px;padding:10px 12px;margin:12px 0 16px;color:var(--green);word-break:keep-all;overflow-wrap:anywhere}.recipe-water>strong{display:block;font-size:10px;margin-bottom:3px}.recipe-water>small{display:block;font-size:9px;font-weight:400;color:var(--muted);margin-top:5px}
