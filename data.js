@@ -137,7 +137,23 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 15,
+      "items": [
+        "도라지: 0.3×0.3×6cm.",
+        "고추장과 고춧가루를 모두 넣은 양념으로 무쳐 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/01.png",
+      "video": "https://www.youtube.com/watch?v=D1NOhKVmPcM",
+      "seconds": 31,
+      "time": "0:31",
+      "alt": "박문각 도라지생채 강의의 재료 화면"
+    }
   },
   {
     "id": 2,
@@ -278,7 +294,24 @@ window.MENUS = [
         "quantity": "5",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 15,
+      "items": [
+        "무: 0.2×0.2×6cm.",
+        "고춧가루를 사용해 무친다.",
+        "완성품은 70g 이상 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/02.png",
+      "video": "https://www.youtube.com/watch?v=O8tsFJBtRqM",
+      "seconds": 40,
+      "time": "0:40",
+      "alt": "박문각 무생채 강의의 재료 화면"
+    }
   },
   {
     "id": 3,
@@ -409,7 +442,23 @@ window.MENUS = [
         "quantity": "20",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 20,
+      "items": [
+        "더덕은 길이 5cm로 썰어 두들겨 편 뒤 찢고 쓴맛을 제거한다.",
+        "고춧가루로 양념하여 전량 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/03.png",
+      "video": "https://www.youtube.com/watch?v=sKCORKFM9C0",
+      "seconds": 29,
+      "time": "0:29",
+      "alt": "박문각 더덕생채 강의의 재료 화면"
+    }
   },
   {
     "id": 4,
@@ -544,7 +593,25 @@ window.MENUS = [
         "quantity": "5",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 20,
+      "items": [
+        "두부: 2×3×1cm.",
+        "홍고추: 0.5×3cm. 실파: 길이 3cm.",
+        "소금과 다진 새우젓의 국물로 간하고 맑게 끓인다.",
+        "찌개 국물은 200mL 이상 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/04.png",
+      "video": "https://www.youtube.com/watch?v=eboiSPS2q4Y",
+      "seconds": 35,
+      "time": "0:35",
+      "alt": "박문각 두부젓국찌개 강의의 재료 화면"
+    }
   },
   {
     "id": 5,
@@ -710,7 +777,25 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 20,
+      "items": [
+        "구운 북어의 길이: 5cm.",
+        "유장으로 초벌구이한 뒤 고추장 양념을 발라 석쇠에 굽는다.",
+        "완성품은 3개를 제출한다.",
+        "세로로 갈라 만든 3토막 또는 6토막은 수량 부족에 따른 실격 대상이다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/05.png",
+      "video": "https://www.youtube.com/watch?v=YxSqIlmLCSU",
+      "seconds": 23,
+      "time": "0:23",
+      "alt": "박문각 북어구이 강의의 재료 화면"
+    }
   },
   {
     "id": 6,
@@ -843,7 +928,25 @@ window.MENUS = [
         "quantity": "50",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 20,
+      "items": [
+        "오이를 길이 6cm로 3토막 낸다.",
+        "양쪽 끝을 각각 1cm 남기고 3~4갈래 칼집을 넣어 절인다.",
+        "소에 넣는 부추는 길이 1cm로 썰고 새우젓은 다진다.",
+        "그릇에 남은 양념으로 국물을 만들어 소박이 위에 붓는다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/06.png",
+      "video": "https://www.youtube.com/watch?v=uyG3DATftG0",
+      "seconds": 39,
+      "time": "0:39",
+      "alt": "박문각 오이소박이 강의의 재료 화면"
+    }
   },
   {
     "id": 7,
@@ -1012,7 +1115,24 @@ window.MENUS = [
         "quantity": "5",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 20,
+      "items": [
+        "완성품: 지름 4cm, 두께 0.7cm.",
+        "흰자와 노른자를 섞은 달걀물을 사용한다.",
+        "완성품 6개를 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/07.png",
+      "video": "https://www.youtube.com/watch?v=OKfQbTyP4o0",
+      "seconds": 30,
+      "time": "0:30",
+      "alt": "박문각 육원전 강의의 재료 화면"
+    }
   },
   {
     "id": 8,
@@ -1162,7 +1282,25 @@ window.MENUS = [
         "quantity": "5",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 20,
+      "items": [
+        "소고기: 0.3×0.3×6cm. 소금 양념을 한다.",
+        "배: 0.3×0.3×5cm. 변색을 막아 접시 가장자리에 돌려 담는다.",
+        "편 썬 마늘로 장식하고 잣가루를 올린다.",
+        "손질한 소고기를 전량 사용한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/08.png",
+      "video": "https://www.youtube.com/watch?v=Kv-GyMTh8gs",
+      "seconds": 26,
+      "time": "0:26",
+      "alt": "박문각 육회 강의의 재료 화면"
+    }
   },
   {
     "id": 9,
@@ -1356,7 +1494,23 @@ window.MENUS = [
         "quantity": "5",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 20,
+      "items": [
+        "표고버섯과 속을 각각 양념한다.",
+        "완성품 5개를 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/09.png",
+      "video": "https://www.youtube.com/watch?v=rRzNjXZ0ZgQ",
+      "seconds": 25,
+      "time": "0:25",
+      "alt": "박문각 표고전 강의의 재료 화면"
+    }
   },
   {
     "id": 10,
@@ -1499,7 +1653,24 @@ window.MENUS = [
         "quantity": "5",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 20,
+      "items": [
+        "마늘·생강은 편 썰고, 파는 길이 2cm로 썬다.",
+        "홍합은 데쳐 전량 사용한다.",
+        "국물을 끼얹어 촉촉하게 담고 잣가루 고명을 올린다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/10.png",
+      "video": "https://www.youtube.com/watch?v=Rf1Ybcy8irI",
+      "seconds": 25,
+      "time": "0:25",
+      "alt": "박문각 홍합초 강의의 재료 화면"
+    }
   },
   {
     "id": 11,
@@ -1660,7 +1831,24 @@ window.MENUS = [
         "quantity": "5",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 25,
+      "items": [
+        "완성 고기: 0.5×4×5cm.",
+        "석쇠에 구워 6쪽을 제출한다.",
+        "잣가루 고명을 올린다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/11.png",
+      "video": "https://www.youtube.com/watch?v=H2e3G1MCt88",
+      "seconds": 28,
+      "time": "0:28",
+      "alt": "박문각 너비아니구이 강의의 재료 화면"
+    }
   },
   {
     "id": 12,
@@ -1824,7 +2012,24 @@ window.MENUS = [
         "quantity": "5",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 25,
+      "items": [
+        "두부를 0.8×3×4.5cm로 잘라 지진 뒤 조리한다.",
+        "8쪽을 제출하고 국물을 조금 끼얹어 촉촉하게 담는다.",
+        "실고추와 파채 고명을 올린다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/12.png",
+      "video": "https://www.youtube.com/watch?v=r_ASrsgggXU",
+      "seconds": 31,
+      "time": "0:31",
+      "alt": "박문각 두부조림 강의의 재료 화면"
+    }
   },
   {
     "id": 13,
@@ -1938,7 +2143,25 @@ window.MENUS = [
         "quantity": "50",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 25,
+      "items": [
+        "생선을 세 장 뜨기하고 껍질을 벗겨 포를 뜬다.",
+        "완성품: 0.5×5×4cm.",
+        "흰자와 노른자를 섞은 달걀물을 사용한다.",
+        "완성품 8개를 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/13.png",
+      "video": "https://www.youtube.com/watch?v=oZnoPMHvw04",
+      "seconds": 25,
+      "time": "0:25",
+      "alt": "박문각 생선전 강의의 재료 화면"
+    }
   },
   {
     "id": 14,
@@ -2051,7 +2274,27 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 25,
+      "items": [
+        "무·오이·당근·달걀지단을 썰어 전량 제출한다. 재료별 써는 방법이 다르면 실격 대상이다.",
+        "무는 채썰기, 오이는 돌려깎은 뒤 채썰기, 당근은 골패썰기로 한다.",
+        "달걀은 흰자·노른자를 나눠 알끈과 거품을 제거하고 각각 지단을 부친다.",
+        "황지단·백지단에서 마름모를 각각 10개씩 만들고 나머지는 채 썬다.",
+        "채썰기: 0.2×0.2×5cm. 골패썰기: 0.2×1.5×5cm.",
+        "마름모: 한 면 길이 1.5cm."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/14.png",
+      "video": "https://www.youtube.com/watch?v=kdaqouOIGyM",
+      "seconds": 50,
+      "time": "0:50",
+      "alt": "박문각 재료 썰기 강의의 재료 화면"
+    }
   },
   {
     "id": 15,
@@ -2233,7 +2476,24 @@ window.MENUS = [
         "quantity": "5",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 25,
+      "items": [
+        "풋고추 길이: 5cm. 소를 채워 지진다.",
+        "고추를 자른 뒤 데쳐 사용한다.",
+        "완성품 8개를 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/15.png",
+      "video": "https://www.youtube.com/watch?v=QCmhjr0uj5A",
+      "seconds": 26,
+      "time": "0:26",
+      "alt": "박문각 풋고추전 강의의 재료 화면"
+    }
   },
   {
     "id": 16,
@@ -2402,7 +2662,24 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 30,
+      "items": [
+        "더덕 껍질을 벗겨 사용한다.",
+        "유장으로 초벌구이한 뒤 고추장 양념을 발라 석쇠에 굽는다.",
+        "완성품 전량을 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/16.png",
+      "video": "https://www.youtube.com/watch?v=6nACIfF3AOs",
+      "seconds": 40,
+      "time": "0:40",
+      "alt": "박문각 더덕구이 강의의 재료 화면"
+    }
   },
   {
     "id": 17,
@@ -2592,7 +2869,24 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 30,
+      "items": [
+        "머리와 꼬리를 붙인 통생선을 사용하고, 내장은 아가미 쪽으로 제거한다.",
+        "생선에 칼집을 넣고 유장으로 초벌구이한 뒤 고추장 양념으로 석쇠에 굽는다.",
+        "머리는 왼쪽, 배는 앞쪽을 향하게 담는다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/17.png",
+      "video": "https://www.youtube.com/watch?v=IbWblOiiNXQ",
+      "seconds": 30,
+      "time": "0:30",
+      "alt": "박문각 생선양념구이 강의의 재료 화면"
+    }
   },
   {
     "id": 18,
@@ -2772,7 +3066,27 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 30,
+      "items": [
+        "생선: 길이 4~5cm 토막.",
+        "무·두부: 2.5×3.5×0.8cm.",
+        "호박은 두께 0.5cm 반달형, 고추는 통 어슷썰기, 쑥갓·파는 길이 4cm.",
+        "고추장과 고춧가루를 모두 사용한다.",
+        "재료가 익는 순서에 맞춰 조리하고 생선살이 부서지지 않게 한다.",
+        "생선 머리를 포함해 전량 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/18.png",
+      "video": "https://www.youtube.com/watch?v=vJsA6i4Gypw",
+      "seconds": 37,
+      "time": "0:37",
+      "alt": "박문각 생선찌개 강의의 재료 화면"
+    }
   },
   {
     "id": 19,
@@ -2937,7 +3251,25 @@ window.MENUS = [
         "quantity": "30",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 30,
+      "items": [
+        "고기:두부 비율은 3:1.",
+        "소고기를 다져 양념하고 큰 반대기 모양으로 빚어 석쇠에 굽는다.",
+        "완성품: 0.7×2×2cm, 9개 이상.",
+        "잣가루 고명을 올린다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/19.png",
+      "video": "https://www.youtube.com/watch?v=KeMY7eGW7MM",
+      "seconds": 27,
+      "time": "0:27",
+      "alt": "박문각 섭산적 강의의 재료 화면"
+    }
   },
   {
     "id": 20,
@@ -3144,7 +3476,24 @@ window.MENUS = [
         "quantity": "30",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 30,
+      "items": [
+        "오징어에 0.3cm 간격으로 어슷한 칼집을 넣고 4×1.5cm로 썬다.",
+        "오징어 다리 길이: 4cm.",
+        "고추·파는 어슷 썰고, 양파는 폭 1cm로 썬다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/20.png",
+      "video": "https://www.youtube.com/watch?v=OfqPAydl2C4",
+      "seconds": 31,
+      "time": "0:31",
+      "alt": "박문각 오징어볶음 강의의 재료 화면"
+    }
   },
   {
     "id": 21,
@@ -3353,7 +3702,25 @@ window.MENUS = [
         "quantity": "5",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 30,
+      "items": [
+        "완자: 지름 3cm, 6개.",
+        "국물만 200mL 이상 제출한다.",
+        "달걀은 지단과 완자에 모두 사용한다.",
+        "황지단·백지단을 마름모꼴로 각각 2개씩 띄운다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/21.png",
+      "video": "https://www.youtube.com/watch?v=2Vc3u1ibqiA",
+      "seconds": 29,
+      "time": "0:29",
+      "alt": "박문각 완자탕 강의의 재료 화면"
+    }
   },
   {
     "id": 22,
@@ -3520,7 +3887,23 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 30,
+      "items": [
+        "불린 쌀을 원래 쌀알의 반 정도 크기인 싸라기로 만들어 죽을 쑨다.",
+        "소고기는 다지고, 불린 표고버섯은 길이 3cm로 채 썬다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/22.png",
+      "video": "https://www.youtube.com/watch?v=szRfsh95zgg",
+      "seconds": 24,
+      "time": "0:24",
+      "alt": "박문각 장국죽 강의의 재료 화면"
+    }
   },
   {
     "id": 23,
@@ -3683,7 +4066,24 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 30,
+      "items": [
+        "완성 고기: 0.4×4×5cm.",
+        "고추장 양념을 하여 석쇠에 굽는다.",
+        "완성품 전량을 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/23.png",
+      "video": "https://www.youtube.com/watch?v=QZEi1Esdcc4",
+      "seconds": 26,
+      "time": "0:26",
+      "alt": "박문각 제육구이 강의의 재료 화면"
+    }
   },
   {
     "id": 24,
@@ -3810,7 +4210,24 @@ window.MENUS = [
         "quantity": "5",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 30,
+      "items": [
+        "콩나물 꼬리를 다듬는다.",
+        "소고기는 채 썰어 간장 양념한다.",
+        "밥을 지어 완성품 전량을 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/24.png",
+      "video": "https://www.youtube.com/watch?v=0w-pBq_HS8U",
+      "seconds": 23,
+      "time": "0:23",
+      "alt": "박문각 콩나물밥 강의의 재료 화면"
+    }
   },
   {
     "id": 25,
@@ -3996,7 +4413,25 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 35,
+      "items": [
+        "채소·편육·황백지단·배: 0.3×1×4cm.",
+        "밤은 원래 모양을 살려 납작하게 썬다.",
+        "겨자는 발효시켜 매운맛을 낸 뒤 간을 맞춘다.",
+        "재료를 겨자 양념에 무쳐 담고 통잣을 올린다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/25.png",
+      "video": "https://www.youtube.com/watch?v=jtRq4CJmwEE",
+      "seconds": 28,
+      "time": "0:28",
+      "alt": "박문각 겨자채 강의의 재료 화면"
+    }
   },
   {
     "id": 26,
@@ -4138,7 +4573,25 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 35,
+      "items": [
+        "강회: 폭 1.5cm, 길이 5cm.",
+        "홍고추: 폭 0.5cm, 길이 4cm.",
+        "달걀은 황지단과 백지단으로 부쳐 사용한다.",
+        "강회 8개를 만들어 초고추장과 함께 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/26.png",
+      "video": "https://www.youtube.com/watch?v=QMUuEkEf6DM",
+      "seconds": 33,
+      "time": "0:33",
+      "alt": "박문각 미나리강회 강의의 재료 화면"
+    }
   },
   {
     "id": 27,
@@ -4322,7 +4775,27 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 35,
+      "items": [
+        "배추를 씻어 물기를 뺀다.",
+        "찹쌀가루로 풀을 쑤어 식힌다.",
+        "무: 0.3×0.3×5cm 채. 고춧가루로 버무려 색을 들인다.",
+        "실파·갓·미나리는 길이 4cm, 대파는 길이 4cm로 채 썬다.",
+        "마늘·생강·새우젓은 다져 사용하고 소 재료를 양념에 버무린다.",
+        "소를 배춧잎 사이에 고루 채워 반으로 접고, 바깥잎으로 전체를 감싸 담는다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/27.png",
+      "video": "https://www.youtube.com/watch?v=1P1hqvBvOyg",
+      "seconds": 49,
+      "time": "0:49",
+      "alt": "박문각 배추김치 강의의 재료 화면"
+    }
   },
   {
     "id": 28,
@@ -4582,7 +5055,25 @@ window.MENUS = [
         "quantity": "1",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 35,
+      "items": [
+        "소고기·양파·오이·당근·도라지·표고버섯: 0.3×0.3×6cm.",
+        "숙주는 데치고 목이버섯은 찢어 사용한다.",
+        "당면은 삶아 유장 처리한 뒤 볶는다.",
+        "황백지단: 0.2×0.2×4cm로 썰어 고명으로 올린다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/28.png",
+      "video": "https://www.youtube.com/watch?v=x8Z-j3mn4Ns",
+      "seconds": 34,
+      "time": "0:34",
+      "alt": "박문각 잡채 강의의 재료 화면"
+    }
   },
   {
     "id": 29,
@@ -4803,7 +5294,23 @@ window.MENUS = [
         "quantity": "5",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 35,
+      "items": [
+        "각 재료: 0.6×1×6cm.",
+        "2개를 만들고, 꼬치를 빼서 제출한다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/29.png",
+      "video": "https://www.youtube.com/watch?v=j4u27Zi6s-c",
+      "seconds": 27,
+      "time": "0:27",
+      "alt": "박문각 지짐누름적 강의의 재료 화면"
+    }
   },
   {
     "id": 30,
@@ -5029,7 +5536,25 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 35,
+      "items": [
+        "청포묵: 0.4×0.4×6cm. 썬 뒤 데쳐 사용한다.",
+        "부재료 길이: 4~5cm.",
+        "소고기·미나리·거두절미한 숙주를 각각 조리하고, 청포묵과 함께 초간장에 무쳐 담는다.",
+        "황백지단은 길이 4cm로 채 썰고, 김은 구워 부숴 고명으로 올린다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/30.png",
+      "video": "https://www.youtube.com/watch?v=uRAbqlkcnSk",
+      "seconds": 36,
+      "time": "0:36",
+      "alt": "박문각 탕평채 강의의 재료 화면"
+    }
   },
   {
     "id": 31,
@@ -5248,7 +5773,24 @@ window.MENUS = [
         "quantity": "30",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 35,
+      "items": [
+        "완성 화양적: 0.6×6×6cm.",
+        "달걀노른자로 만든 황지단을 사용한다. 흰자 지단 사용은 실격 대상이다.",
+        "2꼬치를 만들고 잣가루 고명을 올린다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/31.png",
+      "video": "https://www.youtube.com/watch?v=sitkyvzNCJY",
+      "seconds": 35,
+      "time": "0:35",
+      "alt": "박문각 화양적 강의의 재료 화면"
+    }
   },
   {
     "id": 32,
@@ -5465,7 +6007,24 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 40,
+      "items": [
+        "밀전병: 지름 8cm, 6개.",
+        "채소·황백지단·소고기: 0.2×0.2×5cm.",
+        "석이버섯은 곱게 채 썬다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/32.png",
+      "video": "https://www.youtube.com/watch?v=n3OtVwkKT8E",
+      "seconds": 26,
+      "time": "0:26",
+      "alt": "박문각 칠절판 강의의 재료 화면"
+    }
   },
   {
     "id": 33,
@@ -5718,6 +6277,25 @@ window.MENUS = [
         "quantity": "10",
         "note": ""
       }
-    ]
+    ],
+    "requirements": {
+      "minutes": 50,
+      "items": [
+        "채소·소고기·황백지단: 0.3×0.3×5cm.",
+        "호박은 돌려깎은 뒤 0.3×0.3×5cm로 썬다.",
+        "청포묵: 0.5×0.5×5cm.",
+        "소고기는 볶음고추장과 고명에 나누어 사용한다.",
+        "밥 위에 재료를 색에 맞춰 돌려 담고, 볶은 고추장을 얹는다."
+      ],
+      "sourceUrl": "https://www.q-net.or.kr/cst006.do?artlSeq=5250945&brdId=Q006&id=cst00602",
+      "sourceLabel": "큐넷 2026 공개과제"
+    },
+    "ingredientPhoto": {
+      "src": "./ingredient-photos/33.png",
+      "video": "https://www.youtube.com/watch?v=H1m8BqW_YdQ",
+      "seconds": 41,
+      "time": "0:41",
+      "alt": "박문각 비빔밥 강의의 재료 화면"
+    }
   }
 ];
